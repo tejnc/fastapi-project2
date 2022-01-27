@@ -83,6 +83,6 @@ dep-sync: ## Sync venv installation with 'requirements.txt' file.
 
 .PHONY: run-local
 run-local: ## Run the app locally
-	uvicorn main:app --port 5000 --reload
+	uvicorn app.main:app --port 5000 --reload
 
 

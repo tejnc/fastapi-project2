@@ -1,3 +1,13 @@
 black
 fastapi
 uvicorn[standard]
+mongoengine
+mongoengine-goodjson
+mongo-types
+blinker
+dnspython
+pip-tools
+flake8
+isort
+pytest
+mongomock

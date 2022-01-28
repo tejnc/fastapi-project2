@@ -3,7 +3,7 @@ from mongoengine import connect
 
 
 def get_connection_url() -> str:
-    url = "mongodb+srv://abc:{}@cluster0.ensok.mongodb.net/mock-{}?retryWrites=true&w=majority".format(
+    url = "mongodb+srv://abc:{}@cluster0.ensok.mongodb.net/abc-{}?retryWrites=true&w=majority".format(
         os.environ["PASS_NEW"], os.environ["STAGE"]
     )
 
